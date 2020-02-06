@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login('Njc0OTA5NDYzMDI2ODYwMDQy.Xjvc4g.wREfTw8ycf9uC_P9mV0zVhsfD7g');
+bot.login(process.env.TOKEN);
 var parler = true;
 var nbplayermin = 5; //nombre minimum de joueurs pour commencer une partie
 var nbjoueurs = 0;
